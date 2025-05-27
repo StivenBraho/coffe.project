@@ -1,0 +1,296 @@
+
+body {
+
+    background-color: rgb(33, 36, 37);
+ }
+
+.overrall {
+    background-color: rgb(33, 36, 37)   
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+
+}
+
+  .imgg {
+        height: 30px;
+        width: 30px;
+        position: relative;    
+        margin-right: 10px;
+            
+        }
+        .header {
+            background-color: rgb(54, 32, 22);
+            text-align: center;
+            height: 90px;
+            padding: 0%;
+            line-height: 70px;
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            bottom: 15px;
+            justify-content: center;
+            align-items: center;
+            margin-top: -1%;
+            margin-right: -9px;
+            margin-left: -9px;
+            color: rgb(211, 166, 121);
+            font-weight: bold;
+            font-size: 1.6em;
+            color: rgb(249, 236, 163);
+            padding-top: 5px;
+        }
+    
+    .itemsmain {
+        background-color: rgb(62, 42, 25);
+        height: 370px;
+        width: 750px;
+        padding: 8px;
+        margin: 30px;
+        border-radius: 10px;
+        padding-left: 10px;
+        color: rgb(211, 166, 121);
+        font-weight: normal;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+        .items2 {
+            text-align: left;
+            word-spacing:50px;
+            padding-left: 15px;
+            color: white;
+         }
+    
+        
+        .price {
+            float: right;
+            vertical-align: text-top;
+            display: flex;
+            margin-top: -38px;
+            padding-right: 25px;
+            
+        }
+    
+    .choice {
+        border-bottom: 2px solid rgb(211, 166, 121);
+        padding-bottom: 15px;
+        margin-top: -10px;
+        text-align: left;
+        padding-left: 87px;
+    }
+    .doublechoice {
+        margin-top: -10px;
+        text-align: left;
+        padding-left: 87px;
+    }
+    
+    .choice2 {
+        border-bottom: 2px solid rgb(211, 166, 121);
+        padding-bottom: 15px;
+        margin-top: -15px;
+        text-align: left;
+        padding-left: 87px;
+    }
+    
+    
+    
+    
+    
+    .order {
+        position: relative;
+        display: inline-block;
+        border-color: rgb(62, 42, 25);
+        margin-top: -15px;
+        width: 95%;
+        margin-left: 7px;
+        font-family: 'Open Sans', sans-serif;
+      }
+    
+      .name-order {
+        background-color: rgb(62, 42, 25);
+        height: 125px;
+        width: 750px;
+        padding: 8px;
+        margin: 30px;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    
+    .name-for-order {
+        background-color: rgb(62, 42, 25);
+        color: rgb(211, 166, 121);
+        font-size: 16px;
+        position: absolute;
+        left: 25px;
+        top: 12px;
+        padding: 0 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        
+    }
+    
+    .example-input {
+    border-color: rgba(102, 58, 8, 0.799);
+    background-color: rgba(111, 46, 11, 0);    
+    padding: 8px;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 20px;
+    color: rgb(10, 7, 4);
+    font-size: 16px;
+    border: 2px solid #C68953;
+    outline: none;
+    color: white;
+    
+}
+
+.example-input:hover {
+    border-color: #F8C44B;
+}
+    
+    h3 {
+        color: rgb(211, 166, 121);
+        font-weight: normal;
+        font-size: 16px;
+        margin-bottom: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .payment {  
+        background-color: rgb(62, 42, 25);
+        height: 200px;
+        width: 750px;
+        padding: 8px;
+        margin: 30px;
+        border-radius: 10px;
+        padding-left: 10px;
+        
+    }
+    
+    .pay {
+        position: relative;
+        display: inline-block;
+        border-color: rgb(62, 42, 25);
+        margin-top: -15px;
+        width: 95%;
+        margin-left: 7px;
+       
+      }
+    
+      .card-number { 
+        background-color: rgb(62, 42, 25);
+        color: rgb(10, 7, 4);
+        font-size: 16px;
+        position: absolute;
+        left: 25px;
+        top: 12px;
+        padding: 0 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: rgb(211, 166, 121);
+
+    }
+      
+    .input-card {
+    border-color: rgb(62, 42, 25);
+    background-color: rgba(111, 46, 11, 0);    
+    padding: 8px;
+    border-radius: 15px;
+    width: 30%;
+    margin-top: 40px;
+    color: rgb(10, 7, 4);
+    font-size: 16px;
+    border: 2px solid #C68953;
+    outline: none;
+    color: white;
+    }
+
+    .input:hover {
+    border-color: #F8C44B;
+}
+
+.ccv-number {
+    background-color: rgb(62, 42, 25);
+        color: rgb(10, 7, 4);
+        font-size: 16px;
+        position: absolute;
+        left: 25px;
+        top: 32px;
+        padding: 0 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: rgb(211, 166, 121);
+
+}
+
+.llogaritja {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -10px;
+}
+
+.subtotal {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 650px;
+    font-weight: lighter;
+}
+
+.pricev2 {
+    font-size: 20px;
+    float: right;
+    margin-top: -55px;
+    margin-right: 650px;
+    font-weight: lighter;
+    
+}
+
+.total {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 650px;
+    
+}
+
+.total-price {
+    font-size: 20px;
+    float: right;
+    margin-top: -55px;
+    margin-right: 650px;
+    
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    margin-left: 15px;
+    width: 98%;
+}
+
+.click {
+    font-size: 18px;
+    background-color: #7a4e28;
+    border: none;     
+    border-radius: 20px; 
+    transition: background-color 0.3s;
+    color: white;            
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
